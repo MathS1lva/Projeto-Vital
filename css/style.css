@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/Background.png);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+header{
+    background-color: #55fc99;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 60px #01dc59;
+    position: relative;
+}
+
+.menu_container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 600px;
+}
+
+.menu{
+    list-style:none;
+}
+
+.menu_item{
+    float:left;
+    padding: 31px 10px;
+}
+
+.sobre{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.criar{
+    text-decoration: none;
+    color: #e2306c;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #e2306c;
+}
+
+.iniciar{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: .5px;
+    background-color: #e2306c;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #e2306c;
+
+}
+
+.main_text{
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .text{
+     padding-bottom: 100px;
+     font-size: 25px;
+     color: white;
+     line-height: 35px;
+ }
+
+ .nova{
+     font-size: 30px;
+     color: #e2306c;
+     line-height: 60px;
+ }
+ .botao_confira{
+     text-decoration: none;
+     color: #e2306c;
+     font-size: 16px;
+     font-weight: 600;
+     letter-spacing: .5px;
+     background-color: white;
+     border: 2px solid #e2306c;
+     padding: 15px 40px;
+     border-radius: 18px;
+     line-height: 80px;
+
+ }
+
+ .nossos_diferenciais{
+     height: 100vh;
+ }
